@@ -1,6 +1,4 @@
-# 📌 OpenCV Face Lock
-
-## 🔒 Project Overview
+## Project Overview
 
 **OpenCV Face Lock** is a facial recognition-based door lock system that enhances security and user convenience for dormitory access using Raspberry Pi.
 
@@ -14,7 +12,7 @@ The system provides the following features:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```plaintext
 OpenCV-face-lock/
@@ -40,7 +38,7 @@ OpenCV-face-lock/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Set up Raspberry Pi environment
 - Install Ubuntu or Raspberry Pi OS on each Pi
