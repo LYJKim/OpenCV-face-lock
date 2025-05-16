@@ -36,7 +36,7 @@ OpenCV-face-lock/
 │       └── raspi_predict.py            # Prediction script
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
