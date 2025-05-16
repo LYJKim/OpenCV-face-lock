@@ -16,23 +16,24 @@ The system provides the following features:
 
 ## 📁 Project Structure
 
+```plaintext
 OpenCV-face-lock/
-├── report/ # Project report
-│ └── report.pdf
-├── codes/ # Code directory
-│ ├── Pi1/ # User input and image capture
-│ │ └── pi1.c
-│ ├── Pi2/ # Main server and sensor control
-│ │ ├── db.c
-│ │ ├── sensor.c
-│ │ └── server.zip # Java server code (zipped)
-│ ├── Pi3/ # Keypad input and motor control
-│ │ └── pi3.c
-│ └── Pi4/ # Face recognition and motion detection
-│ ├── pi4_img_rec.c
-│ ├── pi4_pir.c
-│ ├── raspi_dataset+learning.py # Face recognition training script
-│ └── raspi_predict.py # Face prediction script
+├── report/                  # Project report
+│   └── report.pdf
+├── codes/                   # Code directory
+│   ├── Pi1/                 # User input and image capture
+│   │   └── pi1.c
+│   ├── Pi2/                 # Main server and sensor control
+│   │   ├── db.c
+│   │   ├── sensor.c
+│   │   └── server.zip       # Java server code (zipped)
+│   ├── Pi3/                 # Keypad input and motor control
+│   │   └── pi3.c
+│   └── Pi4/                 # Face recognition and motion detection
+│       ├── pi4_img_rec.c
+│       ├── pi4_pir.c
+│       ├── raspi_dataset+learning.py   # Training script
+│       └── raspi_predict.py            # Prediction script
 ├── .gitignore
 └── README.md
 
